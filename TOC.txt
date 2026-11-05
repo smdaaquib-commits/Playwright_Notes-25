@@ -1,0 +1,61 @@
+Data Types
+
+Arrays
+
+objects
+
+array of objects
+
+Loops
+
+map, filter, reduce,
+.some -> checks some exists
+.every -> checky everything exists
+... forEach ->  changes each value
+
+functions
+
+function expression
+
+type, interface
+
+class, constructor
+interface/type → define the object’s structure; class → defines structure + behavior and can create objects using new.
+
+Tuple is defining datatypes of each element in array let user : [number, string, boolean]
+Union types ( string | number), 
+literal types ("pass" | "fail" | "blocked")
+Type Aliases are also the same, browser = "chrome" | "firefox"
+enum are same like literal union , but the diff is we define the value to each variable enum status{ pass = "pass", fail ="fail'}
+
+any -> typescript doesn't check the datatype let age : any = "aaqib"
+unknown -> check it before using it 
+
+typeof                                                    keyof
+"What TYPE is this?" ->type of a value     "What KEYS does this type have?" -> keys of a type
+
+forEach = do something to each element
+map = transform something and return new array
+
+
+
+filter -> give array of elements, find gives only the first matching element
+filter() → Which ones do I want?
+map() → What do I want from each one? -> transform or extract
+
+type / interface → describe/check the shape of data
+class → creates objects and contains the actual behavior/logic
+
+new Set() -> remove duplicates
+[...] -> spread operator is used to spread, merge, add, copy values
+
+object methods -> coverts object result to array  {key: value}
+ object.entries(count) -> [key,value], object.key(count) -> [key], object.values(count) -> [value]
+
+new Map<string, number> -> key value pairs (key,value)
+.has(key)	Checks if a key exists	charCount.has("a")
+.get(key)	Gets the value for a key	charCount.get("a")
+.set(key, value)	Adds or updates a key-value pair	charCount.set("a", 2)
+.size	Returns the number of entries	charCount.size
+
+!actual === "pass" -> ! reverse the truthiness, in index ===-1 reverse the truthiness
